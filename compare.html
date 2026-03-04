@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MilTech — Сравнение характеристик</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0b0e11] text-white font-sans selection:bg-blue-500/30">
+
+    <div class="max-w-6xl mx-auto px-4 py-8 border-x border-gray-800 min-h-screen">
+        
+        <header class="border-b-2 border-blue-600 pb-6 mb-8">
+            <div class="flex items-center gap-6 mb-4">
+                <img src="img/logo.png" alt="MILTECH" class="h-20 w-auto">
+                <div>
+                    <h1 class="text-4xl font-bold uppercase tracking-tighter">MILTECH</h1>
+                    <p class="text-xl text-blue-400">Сравнительный анализ ВТ</p>
+                </div>
+            </div>
+        </header>
+
+       <nav class="mb-12 py-3 border-y border-gray-800 bg-gray-900/50 text-gray-300">
+    <ul class="flex flex-wrap gap-x-6 gap-y-2 justify-center text-lg font-medium">
+        <li><a href="index.html" class="hover:text-blue-400 transition-colors">Главная</a></li>
+        <li class="text-gray-700">|</li>
+        <li><a href="catalog.html" class="hover:text-blue-400 transition-colors">Ангар</a></li>
+        <li class="text-gray-700">|</li>
+        <li><a href="compare.html" class="text-blue-500 underline">Сравнение</a></li>
+        <li class="text-gray-700">|</li>
+        <li><a href="tech.html" class="hover:text-blue-400 transition-colors">Технологии</a></li>
+        <li class="text-gray-700">|</li>
+        <li><a href="about.html" class="hover:text-blue-400 transition-colors">О проекте</a></li>
+    </ul>
+</nav>
+
+        <main>
+            <h2 class="text-2xl font-bold mb-6 border-b border-gray-700 pb-2 inline-block">Сводная таблица ТТХ</h2>
+            
+            <div class="overflow-x-auto shadow-2xl rounded-lg border border-gray-800">
+                <table class="w-full border-collapse text-sm text-left">
+                    <thead class="bg-gray-800 text-blue-400 uppercase text-xs tracking-wider">
+                        <tr>
+                            <th class="p-4 border-b border-gray-700">Название</th>
+                            <th class="p-4 border-b border-gray-700">Поколение</th>
+                            <th class="p-4 border-b border-gray-700">Страна</th>
+                            <th class="p-4 border-b border-gray-700">Скорость</th>
+                            <th class="p-4 border-b border-gray-700">Дальность</th>
+                            <th class="p-4 border-b border-gray-700">Потолок</th>
+                            <th class="p-4 border-b border-gray-700">Стелс</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-800 bg-gray-900/30">
+                        <tr class="hover:bg-blue-500/5 transition-colors">
+                            <td class="p-4 font-bold text-gray-200">F-16 Falcon</td>
+                            <td class="p-4 text-gray-400">4</td>
+                            <td class="p-4 text-gray-400">США</td>
+                            <td class="p-4 text-gray-400">2.0 M</td>
+                            <td class="p-4 text-gray-400">4220 км</td>
+                            <td class="p-4 text-gray-400">15240 м</td>
+                            <td class="p-4 text-red-900">Нет</td>
+                        </tr>
+                        <tr class="hover:bg-blue-500/5 transition-colors">
+                            <td class="p-4 font-bold text-gray-200">Су-27</td>
+                            <td class="p-4 text-gray-400">4</td>
+                            <td class="p-4 text-gray-400">СССР</td>
+                            <td class="p-4 text-gray-400">2.35 M</td>
+                            <td class="p-4 text-gray-400">3530 км</td>
+                            <td class="p-4 text-gray-400">18500 м</td>
+                            <td class="p-4 text-red-900">Нет</td>
+                        </tr>
+                        <tr class="hover:bg-blue-500/5 transition-colors">
+                            <td class="p-4 font-bold text-gray-200">Eurofighter</td>
+                            <td class="p-4 text-gray-400">4+</td>
+                            <td class="p-4 text-gray-400">Европа</td>
+                            <td class="p-4 text-gray-400">2.0 M</td>
+                            <td class="p-4 text-gray-400">2900 км</td>
+                            <td class="p-4 text-gray-400">19812 м</td>
+                            <td class="p-4 text-yellow-600">Частично</td>
+                        </tr>
+                        <tr class="bg-blue-900/10 hover:bg-blue-900/20 transition-colors">
+                            <td class="p-4 font-bold text-blue-400">F-22 Raptor</td>
+                            <td class="p-4 text-blue-300">5</td>
+                            <td class="p-4 text-gray-400">США</td>
+                            <td class="p-4 text-gray-400">2.25 M</td>
+                            <td class="p-4 text-gray-400">2960 км</td>
+                            <td class="p-4 text-gray-400">19812 м</td>
+                            <td class="p-4 text-green-500">Да</td>
+                        </tr>
+                        <tr class="bg-blue-900/10 hover:bg-blue-900/20 transition-colors">
+                            <td class="p-4 font-bold text-blue-400">Су-57</td>
+                            <td class="p-4 text-blue-300">5</td>
+                            <td class="p-4 text-gray-400">Россия</td>
+                            <td class="p-4 text-gray-400">2.0 M</td>
+                            <td class="p-4 text-gray-400">3500 км</td>
+                            <td class="p-4 text-gray-400">20000 м</td>
+                            <td class="p-4 text-green-500">Да</td>
+                        </tr>
+                        <tr class="bg-blue-900/10 hover:bg-blue-900/20 transition-colors">
+                            <td class="p-4 font-bold text-blue-400">J-20</td>
+                            <td class="p-4 text-blue-300">5</td>
+                            <td class="p-4 text-gray-400">Китай</td>
+                            <td class="p-4 text-gray-400">2.0 M</td>
+                            <td class="p-4 text-gray-400">~2000 км</td>
+                            <td class="p-4 text-gray-400">20000 м</td>
+                            <td class="p-4 text-green-500">Да</td>
+                        </tr>
+                    <tbody class="divide-y divide-gray-800 bg-gray-900/30">
+    <tr class="hover:bg-blue-500/5 transition-colors">
+        <td class="p-4 font-bold text-gray-200">F-16V Block 70</td>
+        <td class="p-4 text-gray-400">4++</td>
+        <td class="p-4 text-gray-400">США</td>
+        <td class="p-4 text-gray-400">2.0 M</td>
+        <td class="p-4 text-gray-400">4220 км</td>
+        <td class="p-4 text-gray-400">15240 м</td>
+        <td class="p-4 text-red-900">Нет</td>
+    </tr>
+    <tr class="hover:bg-blue-500/5 transition-colors">
+        <td class="p-4 font-bold text-gray-200">F-15EX Eagle II</td>
+        <td class="p-4 text-gray-400">4++</td>
+        <td class="p-4 text-gray-400">США </td>
+        <td class="p-4 text-gray-400">2.5 M</td>
+        <td class="p-4 text-gray-400">4800 км</td>
+        <td class="p-4 text-gray-400">18200 м</td>
+        <td class="p-4 text-red-900">Нет</td>
+    </tr>
+    <tr class="hover:bg-blue-500/5 transition-colors">
+        <td class="p-4 font-bold text-gray-200">Су-35С</td>
+        <td class="p-4 text-gray-400">4++</td>
+        <td class="p-4 text-gray-400">Россия </td>
+        <td class="p-4 text-gray-400">2.25 M</td>
+        <td class="p-4 text-gray-400">3600 км</td>
+        <td class="p-4 text-gray-400">18000 м</td>
+        <td class="p-4 text-yellow-600">Снижена</td>
+    </tr>
+    <tr class="hover:bg-blue-500/5 transition-colors">
+        <td class="p-4 font-bold text-gray-200">Rafale F4</td>
+        <td class="p-4 text-gray-400">4++</td>
+        <td class="p-4 text-gray-400">Франция </td>
+        <td class="p-4 text-gray-400">1.8 M</td>
+        <td class="p-4 text-gray-400">3700 км</td>
+        <td class="p-4 text-gray-400">15800 м</td>
+        <td class="p-4 text-yellow-600">Частично</td>
+    </tr>
+    <tr class="hover:bg-blue-500/5 transition-colors">
+        <td class="p-4 font-bold text-gray-200">Eurofighter Typhoon</td>
+        <td class="p-4 text-gray-400">4++</td>
+        <td class="p-4 text-gray-400">ЕС </td>
+        <td class="p-4 text-gray-400">2.0 M</td>
+        <td class="p-4 text-gray-400">2900 км</td>
+        <td class="p-4 text-gray-400">19800 м</td>
+        <td class="p-4 text-red-900">Нет</td>
+    </tr>
+
+    <tr class="bg-blue-900/10 hover:bg-blue-900/20 transition-colors">
+        <td class="p-4 font-bold text-blue-400">F-22 Raptor</td>
+        <td class="p-4 text-blue-300">5</td>
+        <td class="p-4 text-gray-400">США </td>
+        <td class="p-4 text-gray-400">2.25 M</td>
+        <td class="p-4 text-gray-400">2960 км</td>
+        <td class="p-4 text-gray-400">19812 м</td>
+        <td class="p-4 text-green-500">Да</td>
+    </tr>
+    <tr class="bg-blue-900/10 hover:bg-blue-900/20 transition-colors">
+        <td class="p-4 font-bold text-blue-400">F-35A Lightning II</td>
+        <td class="p-4 text-blue-300">5</td>
+        <td class="p-4 text-gray-400">США </td>
+        <td class="p-4 text-gray-400">1.6 M</td>
+        <td class="p-4 text-gray-400">2200 км</td>
+        <td class="p-4 text-gray-400">15200 м</td>
+        <td class="p-4 text-green-500">Да</td>
+    </tr>
+    <tr class="bg-blue-900/10 hover:bg-blue-900/20 transition-colors">
+        <td class="p-4 font-bold text-blue-400">Су-57</td>
+        <td class="p-4 text-blue-300">5</td>
+        <td class="p-4 text-gray-400">Россия </td>
+        <td class="p-4 text-gray-400">2.0 M</td>
+        <td class="p-4 text-gray-400">3500 км</td>
+        <td class="p-4 text-gray-400">20000 м</td>
+        <td class="p-4 text-green-500">Да</td>
+    </tr>
+    <tr class="bg-blue-900/10 hover:bg-blue-900/20 transition-colors">
+        <td class="p-4 font-bold text-blue-400">J-20 Mighty Dragon</td>
+        <td class="p-4 text-blue-300">5</td>
+        <td class="p-4 text-gray-400">Китай </td>
+        <td class="p-4 text-gray-400">2.0 M</td>
+        <td class="p-4 text-gray-400">2000 км</td>
+        <td class="p-4 text-gray-400">20000 м</td>
+        <td class="p-4 text-green-500">Да</td>
+    </tr>
+    <tr class="bg-blue-900/10 hover:bg-blue-900/20 transition-colors">
+        <td class="p-4 font-bold text-blue-400">KF-21 Boramae</td>
+        <td class="p-4 text-blue-300">4.5+</td>
+        <td class="p-4 text-gray-400">Ю. Корея </td>
+        <td class="p-4 text-gray-400">1.8 M</td>
+        <td class="p-4 text-gray-400">2900 км</td>
+        <td class="p-4 text-gray-400">16700 м</td>
+        <td class="p-4 text-yellow-600">Частично</td>
+    </tr>
+</tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer class="border-t border-gray-800 mt-20 pt-6 text-center text-sm text-gray-500">
+            <p>© 2026 MILTECH. Данные извлечены из открытых источников.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
