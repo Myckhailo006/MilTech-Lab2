@@ -1,0 +1,31 @@
+/* Общие стили для всего проекта MILTECH */
+body {
+    background-color: #0b0e11; /*темно-синий  */
+    color: #ffffff;
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* стили для навигации */
+nav a {
+    transition: color 0.3s ease;
+}
+
+/* стили для таблиц */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #0b0e11;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e40af; /* синий цвет */
+    border-radius: 5px;
+}
